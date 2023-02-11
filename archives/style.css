@@ -1,0 +1,110 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin:0;
+  padding:0;
+  font-family:'Roboto';
+}
+body{
+  background-color:#131519;
+}
+.container{
+  width:100%;
+  height:100%; 
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.card{
+  width:400px;
+  height:400px;
+  background-color:#1e2530;
+  border-radius:15px;
+  color:white;
+  
+}
+.star{
+  color:#fb7613;
+  background-color:#ffffff;
+  border-radius:50%;
+  font-size:30px;
+  width:40px;
+  height:40px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+label{
+  position:relative;
+  background-color:#131519;
+  color:#fb7613;
+  font-size:30px;
+  border-radius:50%;
+  width:55px;
+  height:55px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow: 0px 0px 20px 0px #131519;
+  
+}
+.radio input:focus{
+  background-color:#ffffff;
+}
+.radio input {
+	width: 100%;
+	height: 100%;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 2px;
+	transition: all 0.2s;
+  position:absolute;
+  opacity:0.1;
+  border-radius:50%;
+}
+
+.card_in{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  width:90%;
+  height:90%; 
+  margin:20px;
+}
+.linha {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  width:100%;
+  height:50px;
+  
+}
+.botao {
+	box-shadow: 0px 0px 25px 0px #fb7713;
+	background-color:#fb7713;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:12px 76px;
+	text-decoration:none;
+  border:0;
+  outline:none;
+}
+.botao:hover {
+	background-color:#e6680e;
+}
+.botao:active {
+	position:relative;
+	top:2px;
+}
+p{
+  font-weight:500;
+  font-size:18px;
+}
